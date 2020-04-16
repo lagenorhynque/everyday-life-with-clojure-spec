@@ -1,5 +1,8 @@
 {:paths ["resources" "src"]
- :deps {org.clojure/clojure {:mvn/version "1.10.1"}}
+ :deps {honeysql {:mvn/version "0.9.10"}
+        org.clojure/clojure {:mvn/version "1.10.1"}
+        org.postgresql/postgresql {:mvn/version "42.2.12"}
+        seancorfield/next.jdbc {:mvn/version "1.0.424"}}
  :aliases
  {:dev {:extra-paths ["dev/src"]
         :extra-deps {expound {:mvn/version "0.8.4"}
